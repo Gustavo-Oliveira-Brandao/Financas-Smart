@@ -1,8 +1,36 @@
-#header {
-    font-family: 'Inter', sans-serif;
+main {
+    min-height: 100%;
+    background-color: #2D2727;
+    color: #ffffff;
+}
+
+header {
+    color: #ffffff;
     background-color: #5D5FEF;
 }
 
-#welcome {
-    margin-left: 0.5%;
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: #5D5FEF;
+}
+
+.valor,
+.renda,
+.gastos {
+    border: #5D5FEF solid 1px;
+    border-radius: 30px;
+    padding: 15px;
+    min-height: 100px;
+    max-width: 300px;
+    background-color: #5D5FEF;
+    margin-bottom: 45px;
+}
+
+#alterar {
+    background-color: #5D5FEF;
+    color: #ffffff;
+    border: none;
 }
