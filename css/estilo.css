@@ -1,6 +1,61 @@
+
+.welcome{
+    display: flex;
+}
+
+#foto-de-perfil{
+    width: 45px;
+    height: 45px;
+    margin-top: 18px;
+}
+
+#icon-calendar{
+    width: 45px;
+    height: 45px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#parte-metas{
+    margin-top: 7px;
+
+}
+
+.purple-cards-dinheiro {
+    padding: 15px;
+    min-height: 100px;
+    min-width: 28%;
+    max-width: 360px;
+    margin-bottom: 30px;
+}
+
+.purple-cards-metas{
+    border: #5D5FEF solid 1px;
+    border-radius: 30px;
+    padding: 15px;
+    min-height: 150px;
+    min-width: 250px;
+    max-width: 360px;
+    background-color: #5D5FEF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#caminhos {
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url("./imagens/background.png");
+    background-size: cover;
+}
+
+nav {
+    background-color: #5D5FEF;
+}
+
 main {
-    min-height: 100%;
-    background-color: #2D2727;
     color: #ffffff;
 }
 
@@ -9,36 +64,12 @@ header {
     background-color: #5D5FEF;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-}
-
-nav {
-    background-color: #5D5FEF;
-}
-
-.valor,
-.renda,
-.gastos {
-    border: #5D5FEF solid 1px;
-    border-radius: 30px;
-    padding: 15px;
-    min-height: 100px;
-    max-width: 300px;
-    background-color: #5D5FEF;
-    margin-bottom: 45px;
-}
-
 #alterar {
-    background-color: #5D5FEF;
+    background-color: #2D2727;
     color: #ffffff;
     border: none;
 }
 
-button:hover{
+button:hover {
     color: #2D2727;
-}
-
-#caminhos{
-    margin-left: 20px;
 }
