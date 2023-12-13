@@ -34,3 +34,11 @@ nav {
     color: #ffffff;
     border: none;
 }
+
+button:hover{
+    color: #2D2727;
+}
+
+#caminhos{
+    margin-left: 20px;
+}
